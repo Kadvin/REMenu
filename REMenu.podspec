@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name        = 'REMenu'
-  s.version     = '1.2.4'
+  s.version     = '1.2.5'
   s.authors     = { 'Roman Efimov' => 'romefimov@gmail.com' }
   s.homepage    = 'https://github.com/romaonthego/REMenu'
   s.summary     = 'Dropdown menu inspired by Vine.'
-  s.source      = { :git => 'https://github.com/romaonthego/REMenu.git',
+  s.source      = { :git => 'https://github.com/kadvin/REMenu.git',
                     :tag => s.version.to_s }
   s.license     = { :type => "MIT", :file => "LICENSE" }
 
