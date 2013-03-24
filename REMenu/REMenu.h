@@ -69,7 +69,7 @@
 @property (assign, readwrite, nonatomic) CGSize highlightedTextShadowOffset;
 @property (assign, readwrite, nonatomic) CGFloat borderWidth;
 @property (strong, readwrite, nonatomic) UIColor *borderColor;
-@property (assign, readwrite, nonatomic) NSTextAlignment textAlignment;
+@property (assign, readwrite, nonatomic) UITextAlignment textAlignment;
 @property (strong, readwrite, nonatomic) UIFont *subtitleFont;
 @property (strong, readwrite, nonatomic) UIColor *subtitleTextColor;
 @property (strong, readwrite, nonatomic) UIColor *subtitleTextShadowColor;
@@ -78,7 +78,7 @@
 @property (strong, readwrite, nonatomic) UIColor *subtitleHighlightedTextColor;
 @property (strong, readwrite, nonatomic) UIColor *subtitleHighlightedTextShadowColor;
 @property (assign, readwrite, nonatomic) CGSize subtitleHighlightedTextShadowOffset;
-@property (assign, readwrite, nonatomic) NSTextAlignment subtitleTextAlignment;
+@property (assign, readwrite, nonatomic) UITextAlignment subtitleTextAlignment;
 @property (assign, readwrite, nonatomic) NSTimeInterval animationDuration;
 
 - (id)initWithItems:(NSArray *)items;

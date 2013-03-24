@@ -83,7 +83,7 @@
     self.textColor = [UIColor colorWithRed:128/255.0 green:126/255.0 blue:124/255.0 alpha:1];
     self.textShadowColor = [UIColor blackColor];
     self.textShadowOffset = CGSizeMake(0, -1);
-    self.textAlignment = NSTextAlignmentCenter;
+    self.textAlignment = UITextAlignmentCenter;
     
     self.highlightedBackgroundColor = [UIColor colorWithRed:28/255.0 green:28/255.0 blue:27/255.0 alpha:1];
     self.highlightedSeparatorColor = [UIColor colorWithRed:28/255.0 green:28/255.0 blue:27/255.0 alpha:1];
@@ -97,7 +97,7 @@
     self.subtitleHighlightedTextColor = [UIColor colorWithRed:0.389 green:0.384 blue:0.379 alpha:1.000];
     self.subtitleHighlightedTextShadowColor = [UIColor blackColor];
     self.subtitleHighlightedTextShadowOffset = CGSizeMake(0, -1);
-    self.subtitleTextAlignment = NSTextAlignmentCenter;
+    self.subtitleTextAlignment = UITextAlignmentCenter;
     
     self.borderWidth = 1;
     self.borderColor =  [UIColor colorWithRed:28/255.0 green:28/255.0 blue:27/255.0 alpha:1];
